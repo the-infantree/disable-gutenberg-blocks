@@ -12,7 +12,7 @@ wp.domReady(() => {
   // wp.blocks.unregisterBlockType('core/gallery');
   // wp.blocks.unregisterBlockType('core/list');
   // wp.blocks.unregisterBlockType('core/quote');
-  // wp.blocks.unregisterBlockType('core/cover-image');
+  // wp.blocks.unregisterBlockType('core/cover');
   // wp.blocks.unregisterBlockType('core/audio');
   // wp.blocks.unregisterBlockType('core/file');
   // wp.blocks.unregisterBlockType('core/video');
@@ -27,6 +27,7 @@ wp.domReady(() => {
 
   // Layout Elements //
   // wp.blocks.unregisterBlockType('core/button');
+  // wp.blocks.unregisterBlockType('core/buttons');
   // wp.blocks.unregisterBlockType('core/media-text');
   // wp.blocks.unregisterBlockType('core/spacer');
   // wp.blocks.unregisterBlockType('core/more');
@@ -34,12 +35,20 @@ wp.domReady(() => {
   // wp.blocks.unregisterBlockType('core/separator');
   // wp.blocks.unregisterBlockType('core/columns');
 
+  // wp.blocks.unregisterBlockType('core/group');
+  // wp.blocks.unregisterBlockType('core/html');
+
   // Widgets //
   // wp.blocks.unregisterBlockType('core/shortcode');
   // wp.blocks.unregisterBlockType('core/latest-posts');
   // wp.blocks.unregisterBlockType('core/archives');
   // wp.blocks.unregisterBlockType('core/categories');
   // wp.blocks.unregisterBlockType('core/latest-comments');
+  // wp.blocks.unregisterBlockType('core/calendar');
+  // wp.blocks.unregisterBlockType('core/rss');
+  // wp.blocks.unregisterBlockType('core/search');
+  // wp.blocks.unregisterBlockType('core/social-links');
+  // wp.blocks.unregisterBlockType('core/tag-cloud');
 
   // Embeds //
   // wp.blocks.unregisterBlockType("core/embed");
@@ -56,14 +65,12 @@ wp.domReady(() => {
   // wp.blocks.unregisterBlockType("core-embed/cloudup");
   // wp.blocks.unregisterBlockType("core-embed/collegehumor");
   // wp.blocks.unregisterBlockType("core-embed/dailymotion");
-  // wp.blocks.unregisterBlockType("core-embed/funnyordie");
-  // wp.blocks.unregisterBlockType("core-embed/hulu");
   // wp.blocks.unregisterBlockType("core-embed/imgur");
   // wp.blocks.unregisterBlockType("core-embed/issuu");
   // wp.blocks.unregisterBlockType("core-embed/kickstarter");
   // wp.blocks.unregisterBlockType("core-embed/meetup-com");
   // wp.blocks.unregisterBlockType("core-embed/mixcloud");
-  // wp.blocks.unregisterBlockType("core-embed/photobucket");
+  
   // wp.blocks.unregisterBlockType("core-embed/polldaddy");
   // wp.blocks.unregisterBlockType("core-embed/reddit");
   // wp.blocks.unregisterBlockType("core-embed/reverbnation");
@@ -75,7 +82,9 @@ wp.domReady(() => {
   // wp.blocks.unregisterBlockType("core-embed/ted");
   // wp.blocks.unregisterBlockType("core-embed/tumblr");
   // wp.blocks.unregisterBlockType("core-embed/videopress");
-  // wp.blocks.unregisterBlockType("core-embed/vine");
   // wp.blocks.unregisterBlockType("core-embed/wordpress-tv");
   // wp.blocks.unregisterBlockType("core-embed/speaker-deck");
+  // wp.blocks.unregisterBlockType("core-embed/tiktok");
+  // wp.blocks.unregisterBlockType("core-embed/crowdsignal");
+  // wp.blocks.unregisterBlockType("core-embed/amazon-kindle");
 });
